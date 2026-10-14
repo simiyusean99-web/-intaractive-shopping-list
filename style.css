@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    background-image: url('https://images.unsplash.com/photo-1773823564929-2780ff300be4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background:white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #473030;
+    border-radius: 5px;
+}
+
+#itemName {
+    flex: 1;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:purple;
+    color: white rgb(9, 88, 33);
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#shoppingList {
+    list-style: none;
+}
+
+.shopping-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.purchased {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.item-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.delete-button {
+    background-color: #c0392b;
+}
+
+.edit-button {
+    background-color: #2980b9;
+}
+
+.purchase-button {
+    background-color: #27ae60;
+}
+
+#clearButton {
+    margin-top: 20px;
+    background-color: #5d3834;
+}
+#clearButton:hover {
+    background-color: red;
+}
